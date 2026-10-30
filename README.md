@@ -28,7 +28,7 @@ This package isn't published on npm. Pull it in directly from git:
 
 ```bash
 git clone https://github.com/kiuur/caller
-cd baileys-caller
+cd caller
 npm install
 npm run build
 ```
