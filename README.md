@@ -27,7 +27,7 @@ Wraps WhatsApp Web's official VoIP WASM stack and uses [Baileys](https://github.
 This package isn't published on npm. Pull it in directly from git:
 
 ```bash
-git clone https://github.com/SheIITear/baileys-caller
+git clone https://github.com/kiuur/caller
 cd baileys-caller
 npm install
 npm run build
@@ -38,7 +38,7 @@ You can also depend on it from another project via a git URL in `package.json`:
 ```json
 {
   "dependencies": {
-    "baileys-caller": "git+https://github.com/SheIITear/baileys-caller.git",
+    "baileys-caller": "git+https://github.com/kiuur/caller.git",
     "@whiskeysockets/baileys": "^7.0.0-rc11"
   }
 }
@@ -49,7 +49,7 @@ You can also depend on it from another project via a git URL in `package.json`:
 ## Quick Start
 
 ```ts
-import { VoipClient } from "baileys-caller";
+import { VoipClient } from "caller";
 
 const client = new VoipClient({ authDir: "./auth" });
 
